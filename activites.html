@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Activités —  RZ</title>
+  <meta name="description" content="Les domaines d'activité et services de RZ : construction, travaux publics, rénovation, génie civil et plus." />
+  <link rel="icon" href="assets/images/logo/RZ_logo.png" type="image/png" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .activity-detail {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+      padding: 56px 0;
+      border-bottom: 1px solid var(--gray-mid);
+    }
+    .activity-detail:last-child { border-bottom: none; }
+    .activity-detail.reverse { direction: rtl; }
+    .activity-detail.reverse > * { direction: ltr; }
+    .activity-content .activity-num {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 5rem;
+      font-weight: 800;
+      color: var(--gray-mid);
+      line-height: 1;
+      margin-bottom: -16px;
+    }
+    .activity-content .activity-tag {
+      display: inline-block;
+      background: rgba(109,196,58,0.12);
+      color: #4a9926;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 4px 14px;
+      border-radius: 50px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 14px;
+    }
+    .activity-content h2 { margin-bottom: 16px; }
+    .activity-content p  { margin-bottom: 14px; }
+    .activity-content ul {
+      margin-top: 16px;
+      display: flex; flex-direction: column; gap: 8px;
+    }
+    .activity-content ul li {
+      display: flex; align-items: center; gap: 10px;
+      font-size: 0.92rem; color: var(--gray-text);
+    }
+    .activity-content ul li::before {
+      content: '✓';
+      color: var(--green);
+      font-weight: 700;
+      min-width: 16px;
+    }
+    @media (max-width: 768px) {
+      .activity-detail, .activity-detail.reverse {
+        grid-template-columns: 1fr;
+        direction: ltr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <a href="index.html" class="nav-logo">
+      <img src="assets/images/logo/RZ_logo.png" alt="Logo  RZ" />
+      <div class="nav-logo-text">
+        <span>RZ</span>
+        <span>Bâtiment & Travaux Publics</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="personnel.html">Personnel</a></li>
+      <li><a href="activites.html" class="active">Activités</a></li>
+      <li><a href="projets.html">Projets</a></li>
+      <li><a href="infos.html">Informations</a></li>
+    </ul>
+    <div class="nav-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <div class="page-wrapper">
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="index.html">Accueil</a>
+          <span>›</span>
+          <span>Activités</span>
+        </div>
+        <h1>Nos Activités</h1>
+        <p>RZ intervient sur l'ensemble des corps de métiers du bâtiment et des travaux publics. Découvrez nos domaines d'expertise.</p>
+      </div>
+    </section>
+
+    <!-- INTRO -->
+    <section class="section section-gray">
+      <div class="container">
+        <div style="display:grid; grid-template-columns: repeat(4, 1fr); gap:20px;" class="reveal">
+          <div style="text-align:center; background:var(--white); border-radius:10px; padding:28px 16px; box-shadow:var(--shadow);">
+            <div style="font-size:2rem; margin-bottom:8px;">🏗️</div>
+            <h3 style="font-size:1rem;">Construction</h3>
+          </div>
+          <div style="text-align:center; background:var(--white); border-radius:10px; padding:28px 16px; box-shadow:var(--shadow);">
+            <div style="font-size:2rem; margin-bottom:8px;">🛣️</div>
+            <h3 style="font-size:1rem;">Travaux Publics</h3>
+          </div>
+          <div style="text-align:center; background:var(--white); border-radius:10px; padding:28px 16px; box-shadow:var(--shadow);">
+            <div style="font-size:2rem; margin-bottom:8px;">🔧</div>
+            <h3 style="font-size:1rem;">Rénovation</h3>
+          </div>
+          <div style="text-align:center; background:var(--white); border-radius:10px; padding:28px 16px; box-shadow:var(--shadow);">
+            <div style="font-size:2rem; margin-bottom:8px;">📐</div>
+            <h3 style="font-size:1rem;">Génie Civil</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DÉTAIL DES ACTIVITÉS -->
+    <section class="section section-light">
+      <div class="container">
+
+        <!-- 01 Construction neuve -->
+        <div class="activity-detail reveal">
+          <div class="activity-content">
+            <div class="activity-num">01</div>
+            <div class="activity-tag">Bâtiment</div>
+            <h2>Construction Neuve</h2>
+            <p>RZ réalise des ouvrages neufs de tout type : résidentiels, commerciaux, industriels ou institutionnels. De l'étude de faisabilité au suivi de chantier, nous accompagnons chaque maître d'ouvrage à toutes les étapes.</p>
+            <p>Nos équipes maîtrisent les techniques modernes de construction et utilisent des matériaux de qualité pour garantir la durabilité et la conformité de chaque bâtiment.</p>
+            <ul>
+              <li>Villas et maisons individuelles</li>
+              <li>Immeubles R+1 à R+5</li>
+              <li>Bâtiments commerciaux et bureaux</li>
+              <li>Entrepôts et locaux industriels</li>
+              <li>Équipements scolaires et sanitaires</li>
+            </ul>
+          </div>
+          <div class="photo-placeholder" style="height:360px; border-radius:10px;">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#aab0ba" stroke-width="1.5">
+              <rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/>
+              <polyline points="21 15 16 10 5 21"/>
+            </svg>
+            <span><img src="assets/images/projets/construction.png" alt=""></span>
+          </div>
+        </div>
+
+        <!-- 02 Travaux Publics -->
+        <div class="activity-detail reverse reveal">
+          <div class="activity-content">
+            <div class="activity-num">02</div>
+            <div class="activity-tag">Infrastructure</div>
+            <h2>Travaux Publics</h2>
+            <p>RZ intervient sur les grandes infrastructures publiques :canaux, aménagements urbains. Nous travaillons en partenariat avec les collectivités et organismes publics pour améliorer le cadre de vie des populations.</p>
+            
+            <ul>             
+              <li>Terrassement et plateforme</li>            
+              <li>Aménagements urbains</li>
+              <li>Réseaux de canaux</li>
+            </ul>
+          </div>
+          <div class="photo-placeholder" style="height:360px; border-radius:10px;">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#aab0ba" stroke-width="1.5">
+              <rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/>
+              <polyline points="21 15 16 10 5 21"/>
+            </svg>
+            <span><img src="assets/images/projets/travaux_urbain.png" alt=""></span>
+          </div>
+        </div>
+
+        <!-- 03 Rénovation -->
+        <div class="activity-detail reveal">
+          <div class="activity-content">
+            <div class="activity-num">03</div>
+            <div class="activity-tag">Réhabilitation</div>
+            <h2>Rénovation & Réhabilitation</h2>
+            <p>RZ redonne vie aux bâtiments anciens ou dégradés. Nos travaux de rénovation visent à améliorer les performances énergétiques, la sécurité structurelle et le confort des occupants tout en respectant le cachet de l'ouvrage existant.</p>
+            <ul>
+              <li>Réfection de toitures et charpentes</li>
+              <li>Rénovation de façades et enduits</li>
+              <li>Mise aux normes électriques et sanitaires</li>
+              <li>Remplacement menuiseries</li>
+              <li>Travaux d'étanchéité</li>
+              <li>Réhabilitation d'équipements publics</li>
+            </ul>
+          </div>
+          <div class="photo-placeholder" style="height:360px; border-radius:10px;">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#aab0ba" stroke-width="1.5">
+              <rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/>
+              <polyline points="21 15 16 10 5 21"/>
+            </svg>
+            <span><img src="assets/images/projets/renovation.png" alt=""></span>
+          </div>
+        </div>
+
+        <!-- 04 Génie Civil -->
+        <div class="activity-detail reverse reveal">
+          <div class="activity-content">
+            <div class="activity-num">04</div>
+            <div class="activity-tag">Structure</div>
+            <h2>Génie Civil</h2>
+            <p>Notre département génie civil conçoit et réalise des structures complexes : fondations spéciales, béton armé, soutènements. Nos ingénieurs assurent des calculs rigoureux et une exécution conforme aux normes en vigueur.</p>
+            <ul>
+              <li>Fondations superficielles et profondes</li>
+              <li>Structures en béton armé</li>
+              <li>Murs de soutènement</li>
+              <li>Dalles et planchers</li>
+              <li>Études de sol et implantation</li>
+            </ul>
+          </div>
+          <div class="photo-placeholder" style="height:360px; border-radius:10px;">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#aab0ba" stroke-width="1.5">
+              <rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/>
+              <polyline points="21 15 16 10 5 21"/>
+            </svg>
+            <span><img src="assets/images/projets/genie_civil.png" alt=""></span>
+          </div>
+        </div>
+
+        <!-- 05 Assainissement -->
+        <div class="activity-detail reveal">
+          <div class="activity-content">
+            <div class="activity-num">05</div>
+            <div class="activity-tag">Réseau</div>
+            <h2>Assainissement & Réseaux</h2>
+            <p>RZ réalise l'ensemble des travaux de réseaux : eau potable, eaux usées, pluviales. Nous intervenons aussi bien pour les particuliers que pour les collectivités ou les promoteurs.</p>
+            <ul>
+              <li>Réseaux d'eau potable</li>
+              <li>Réseaux d'eaux usées</li>
+              <li>Drainage pluvial</li>
+              <li>Fosses septiques et stations d'épuration</li>
+              <li>Adduction d'eau rurale</li>
+            </ul>
+          </div>
+          <div class="photo-placeholder" style="height:360px; border-radius:10px;">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#aab0ba" stroke-width="1.5">
+              <rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/>
+              <polyline points="21 15 16 10 5 21"/>
+            </svg>
+            <span><img src="assets/images/projets/eau.png" alt=""></span>
+          </div>
+        </div>
+
+        <!-- 06 Aménagement intérieur -->
+        <div class="activity-detail reverse reveal">
+          <div class="activity-content">
+            <div class="activity-num">06</div>
+            <div class="activity-tag">Finition</div>
+            <h2>Aménagement Intérieur</h2>
+            <p>Du sol au plafond, RZ prend en charge toutes les finitions intérieures. Nos artisans qualifiés assurent des travaux soignés pour un rendu esthétique et durable.</p>
+            <ul>
+              <li>Carrelage et revêtements de sol</li>
+              <li>Peinture intérieure et extérieure</li>
+              <li>Pose de cloisons et faux-plafonds</li>
+              <li>Menuiserie bois et aluminium</li>
+              <li>Plomberie et sanitaires</li>
+              <li>Électricité courante faible et forte</li>
+            </ul>
+          </div>
+          <div class="photo-placeholder" style="height:360px; border-radius:10px;">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#aab0ba" stroke-width="1.5">
+              <rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/>
+              <polyline points="21 15 16 10 5 21"/>
+            </svg>
+            <span><img src="assets/images/projets/aménagement.png" alt=""></span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section style="background:var(--gray-light); padding:70px 5%; text-align:center;">
+      <div class="container reveal">
+        <h2 style="margin-bottom:14px;">Un projet en tête ?</h2>
+        <p style="max-width:480px; margin:0 auto 32px;">Contactez-nous pour obtenir un devis gratuit et personnalisé adapté à votre besoin.</p>
+        <a href="infos.html" class="btn btn-primary">Obtenir un devis →</a>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="brand-name">RZ</div>
+        <div class="brand-tagline">Bâtiment & Travaux Publics</div>
+        <p>Rasolomanantsoa Zafiarijaona — Une entreprise malgache de confiance, engagée dans la qualité et la durabilité de chaque ouvrage.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="personnel.html">Personnel</a></li>
+          <li><a href="activites.html">Activités</a></li>
+          <li><a href="projets.html">Projets</a></li>
+          <li><a href="infos.html">Informations</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="contact-item"><span>📍</span><span>Lot 3 020 02 TANAMBAO NORD</span></div>
+        <div class="contact-item"><span>📞</span><span>+261 32 80 270 08</span></div>
+        <div class="contact-item"><span>✉️</span><span>contactrz@rasolomanantsoa.mg</span></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="copy">© 2023 RZ — Tous droits réservés</span>
+      <span class="made-with">Entreprise <span>Malgache</span></span>
+    </div>
+  </footer>
+
+  <button id="backToTop" aria-label="Retour en haut">↑</button>
+  <script src="js/main.js"></script>
+</body>
+</html>

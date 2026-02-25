@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personnel — RZ</title>
+  <meta name="description" content="L'équipe de direction et les représentants de Rasolomanantsoa Zafiraijaona." />
+  <link rel="icon" href="assets/images/logo/RZ_logo.png" type="image/png" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    /* Photo réelle dans les cartes équipe */
+    .team-card .team-photo {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+      object-position: top center;
+      display: block;
+    }
+    /* Photo DG */
+    .dg-photo {
+      width: 100%;
+      height: 380px;
+      object-fit: cover;
+      object-position: top center;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <a href="index.html" class="nav-logo">
+      <img src="assets/images/logo/RZ_logo.png" alt="Logo RZ" />
+      <div class="nav-logo-text">
+        <span>RZ</span>
+        <span>Bâtiment & Travaux Publics</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="personnel.html" class="active">Personnel</a></li>
+      <li><a href="activites.html">Activités</a></li>
+      <li><a href="projets.html">Projets</a></li>
+      <li><a href="infos.html">Informations</a></li>
+    </ul>
+    <div class="nav-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <div class="page-wrapper">
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="index.html">Accueil</a>
+          <span>›</span>
+          <span>Personnel</span>
+        </div>
+        <h1>Notre Équipe</h1>
+        <p>Des personnes engagées, compétentes et passionnées par leur métier — le véritable moteur de RZ.</p>
+      </div>
+    </section>
+
+    <!-- DIRECTION -->
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="tag">Direction</div>
+          <h2>Représentants & Direction</h2>
+          <p>La direction de RZ s'engage personnellement dans chaque projet pour garantir qualité et satisfaction.</p>
+          <div class="accent-line"></div>
+        </div>
+
+        <!-- Dirigeant principal -->
+        <div style="display:grid; grid-template-columns:320px 1fr; gap:40px; align-items:center; background:var(--white); border-radius:12px; box-shadow:var(--shadow-lg); overflow:hidden; margin-bottom:48px;" class="reveal">
+
+           <!-- Photo DG : si disponible remplacez le placeholder ci-dessous par :-->
+          <img src="assets/images/equipe/DG.png" alt="Rasolomanantsoa Zafiraijaona" class="dg-photo" />
+          <!--<div class="photo-placeholder" style="height:380px;">
+            <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#aab0ba" stroke-width="1.3">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+            </svg>
+            <span>Photo DG — 600×720 px</span>
+          </div>-->
+
+          <div style="padding:40px 40px 40px 0;">
+            <div class="badge" style="margin-bottom:12px;">Dirigeant</div>
+            <h2 style="margin-bottom:6px; font-size:2rem;">Rasolomanantsoa Zafiraijaona</h2>
+            <p style="color:var(--blue); font-weight:700; font-size:0.9rem; text-transform:uppercase; letter-spacing:0.1em; margin-bottom:20px;">Gérant & Fondateur — RZ</p>
+            <p style="font-size:1rem; line-height:1.8; color:#555; margin-bottom:18px;">
+              Fort d'une expérience de plus de 20 années dans le secteur du bâtiment et des travaux publics à Madagascar et aux Comores, Zafiraijaona Rasolomanantsoa a fondé RZ avec la vision d'une entreprise alliant savoir-faire local, standards techniques élevés et respect des engagements.
+            </p>
+            <p style="font-size:1rem; line-height:1.8; color:#555; margin-bottom:24px;">
+              Diplômé en Bâtiment et Travaux Publics, il supervise personnellement les chantiers d'envergure et assure le lien entre les équipes terrain et les maîtres d'ouvrage pour garantir la conformité des réalisations.
+            </p>
+            <div style="display:flex; flex-wrap:wrap; gap:10px;">
+              <span style="background:rgba(109,196,58,0.1); color:#4a9926; font-size:0.78rem; font-weight:700; padding:5px 14px; border-radius:50px;">Génie Civil</span>
+              <span style="background:rgba(109,196,58,0.1); color:#4a9926; font-size:0.78rem; font-weight:700; padding:5px 14px; border-radius:50px;">Gestion de Chantier</span>
+              <span style="background:rgba(41,170,220,0.1); color:#1a7fb0; font-size:0.78rem; font-weight:700; padding:5px 14px; border-radius:50px;">Management</span>
+              <span style="background:rgba(41,170,220,0.1); color:#1a7fb0; font-size:0.78rem; font-weight:700; padding:5px 14px; border-radius:50px;">Conception de projet</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cadres & Responsables -->
+        <div class="section-header reveal" style="margin-bottom:32px;">
+          <div class="tag">Représentants</div>
+          <h2>Cadres & Responsables</h2>
+          <div class="accent-line"></div>
+        </div>
+
+        <div class="team-grid">
+
+          <!-- Tantely -->
+          <div class="card team-card reveal reveal-delay-1">
+            <img src="assets/images/equipe/tantely.jpeg" alt="Tantely Ravelonjanahary" class="team-photo" />
+            <div class="team-info">
+              <div class="role">Directeur Régional Centre</div>
+              <h3>Tantely Ravelonjanahary</h3>
+              <p>Dirige et optimise les actions régionales afin de soutenir le développement du centre.</p>
+            </div>
+          </div>
+
+          <!-- Arison -->
+          <div class="card team-card reveal reveal-delay-2">
+            <img src="assets/images/equipe/arison.png" alt="Arison Rakotovao" class="team-photo" />
+            <div class="team-info">
+              <div class="role">Directeur Régional Majunga</div>
+              <h3>Arison Rakotovao</h3>
+              <p>Pilote les activités du centre de Majunga en garantissant organisation, efficacité et croissance régionale.</p>
+            </div>
+          </div>
+
+          <!-- Rafanomezantsoa -->
+          <div class="card team-card reveal reveal-delay-3">
+            <img src="assets/images/equipe/rafanomezantsoa.jpeg" alt="Rafanomezantsoa" class="team-photo" />
+            <div class="team-info">
+              <div class="role">Responsable QHSE</div>
+              <h3>Rafanomezantsoa</h3>
+              <p>Veille au respect des normes de qualité, d'hygiène, de sécurité et d'environnement sur l'ensemble des chantiers.</p>
+            </div>
+          </div>
+
+          <!-- Tsiiva -->
+          <div class="card team-card reveal reveal-delay-1">
+            <img src="assets/images/equipe/tsiiva.jpeg" alt="Tsiiva Voniarijaona" class="team-photo" />
+            <div class="team-info">
+              <div class="role">Directeur des Technologies Informatiques</div>
+              <h3>Tsiiva Voniarijaona</h3>
+              <p>Responsable de la stratégie numérique et de l'optimisation des solutions digitales de l'entreprise.</p>
+            </div>
+          </div>
+
+          <!-- Richard -->
+          <div class="card team-card reveal reveal-delay-2">
+            <img src="assets/images/equipe/richard.png" alt="Richard Rafamatanantsoa" class="team-photo" />
+            <div class="team-info">
+              <div class="role">Conducteur de Travaux</div>
+              <h3>Richard Rafamatanantsoa</h3>
+              <p>Supervision et coordination de chantiers — gestion d'équipes, suivi technique et respect des délais.</p>
+            </div>
+          </div>
+
+          <!-- Rova -->
+          <div class="card team-card reveal reveal-delay-3">
+            <img src="assets/images/equipe/rova.png" alt="Rovasoa Voniarinjanahary" class="team-photo" />
+            <div class="team-info">
+              <div class="role">Responsable Modélisation & Urbanisme</div>
+              <h3>Rovasoa Voniarinjanahary</h3>
+              <p>Spécialiste en modélisation architecturale et urbaine, chargé de la conception des plans et représentations 2D/3D.</p>
+            </div>
+          </div>
+
+          <!-- Mahandry -->
+          <div class="card team-card reveal reveal-delay-1">
+            <img src="assets/images/equipe/mahandry.png" alt="Mahasafo Mahandry" class="team-photo" />
+            <div class="team-info">
+              <div class="role">Chef de Département Est</div>
+              <h3>Mahasafo Mahandry</h3>
+              <p>Responsable de la direction des opérations dans la région Est, coordination des chantiers et optimisation des ressources locales.</p>
+            </div>
+          </div>
+
+          <!-- Vololoniaina -->
+          <div class="card team-card reveal reveal-delay-2">
+            <img src="assets/images/equipe/vololoniaina.png" alt="Vololoniaina Razafindrasoa" class="team-photo" />
+            <div class="team-info">
+              <div class="role">Directeur Régional Nord</div>
+              <h3>Vololoniaina Razafindrasoa</h3>
+              <p>Assure la direction des opérations dans la région Nord, supervision des chantiers et optimisation des ressources locales.</p>
+            </div>
+          </div>
+
+          <!-- Roger -->
+          <div class="card team-card reveal reveal-delay-3">
+            <img src="assets/images/equipe/roger.png" alt="Roger Ravo" class="team-photo" />
+            <div class="team-info">
+              <div class="role">Directeur Régional Nosy Be</div>
+              <h3>Roger Ravo</h3>
+              <p>Pilote les opérations dans la région de Nosy Be, coordination des chantiers et utilisation optimale des ressources locales.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- VALEURS -->
+    <section class="section section-gray">
+      <div class="container">
+        <div class="section-header reveal" style="text-align:center;">
+          <div class="tag">Notre ADN</div>
+          <h2>Les valeurs qui nous guident</h2>
+          <div class="accent-line" style="margin:16px auto 0;"></div>
+        </div>
+        <div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap:24px; margin-top:8px;">
+          <div style="text-align:center; padding:32px 20px;" class="reveal reveal-delay-1">
+            <div style="font-size:2.5rem; margin-bottom:14px;">🎯</div>
+            <h3 style="margin-bottom:10px;">Rigueur</h3>
+            <p style="font-size:0.9rem;">Nous respectons les plans, les normes et les cahiers des charges à la lettre.</p>
+          </div>
+          <div style="text-align:center; padding:32px 20px;" class="reveal reveal-delay-2">
+            <div style="font-size:2.5rem; margin-bottom:14px;">🤝</div>
+            <h3 style="margin-bottom:10px;">Engagement</h3>
+            <p style="font-size:0.9rem;">Nous honorons nos délais et nos engagements contractuels sans compromis.</p>
+          </div>
+          <div style="text-align:center; padding:32px 20px;" class="reveal reveal-delay-3">
+            <div style="font-size:2.5rem; margin-bottom:14px;">⭐</div>
+            <h3 style="margin-bottom:10px;">Excellence</h3>
+            <p style="font-size:0.9rem;">La qualité de nos finitions et de nos ouvrages est notre signature.</p>
+          </div>
+          <div style="text-align:center; padding:32px 20px;" class="reveal reveal-delay-1">
+            <div style="font-size:2.5rem; margin-bottom:14px;">🌱</div>
+            <h3 style="margin-bottom:10px;">Responsabilité</h3>
+            <p style="font-size:0.9rem;">Nous agissons dans le respect des personnes et de l'environnement.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="brand-name">RZ</div>
+        <div class="brand-tagline">Bâtiment & Travaux Publics</div>
+        <p>Rasolomanantsoa Zafiraijaona — Une entreprise malgache de confiance, engagée dans la qualité et la durabilité de chaque ouvrage.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="personnel.html">Personnel</a></li>
+          <li><a href="activites.html">Activités</a></li>
+          <li><a href="projets.html">Projets</a></li>
+          <li><a href="infos.html">Informations</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="contact-item"><span>📍</span><span>Lot 3 020 02 TANAMBAO NORD</span></div>
+        <div class="contact-item"><span>📞</span><span>+261 32 80 270 08</span></div>
+        <div class="contact-item"><span>✉️</span><span>contactrz@rasolomanantsoa.mg</span></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="copy">© 2023 RZ — Tous droits réservés</span>
+      <span class="made-with">Entreprise <span>Malgache</span></span>
+    </div>
+  </footer>
+
+  <button id="backToTop" aria-label="Retour en haut">↑</button>
+  <script src="js/main.js"></script>
+</body>
+</html>
