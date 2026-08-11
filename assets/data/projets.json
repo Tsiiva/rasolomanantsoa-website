@@ -1,0 +1,56 @@
+[
+  {
+    "id": 6,
+    "titre": "Réhabilitation complète du site télécoms de Tama Verrerie",
+    "date": "2025-09-01",
+    "annee": "2025",
+    "image": "assets/images/projets/Tama.webp",
+    "description": "Dans le cadre de la réhabilitation du site télécoms de Tama Verrerie, ETS RZ a pris en charge l'ensemble des travaux de remise en état des infrastructures périphériques et des bâtiments annexes, couvrant la clôture périmétrique, le logement gardien, les latrines, la niche compteur et le local de stockage. Les travaux de génie civil ont porté sur le traitement des parties humides, la réalisation d'enduits étanches hydrofuges et de chapes sur dallages intérieurs et extérieurs, le rebouchage, la démolition partielle d'une cloison de séparation et la fourniture-pose de nouvelles menuiseries métalliques à double panneau isolant. Le volet assainissement a intégré la pose d'un réseau de drainage en tuyaux PVC perforés de 79 ml, la construction d'un puisard absorbant, l'installation d'une pompe manuelle et la mise en place d'un géotextile et film polyane pour la protection contre les remontées capillaires. En complément, quatre luminaires solaires autonomes ont été installés pour l'éclairage du site, garantissant la sécurité et l'exploitation continue des installations indépendamment du réseau électrique conventionnel.",
+    "tag": "Réhabilitation"
+  },
+  {
+    "id": 3,
+    "titre": "Réhabilitation site stratégique Tamatave (STT tamatave)",
+    "date": "2025-03-01",
+    "annee": "2025",
+    "image": "assets/images/projets/STT_tamatave.webp",
+    "description": "Dans le cadre de la maintenance et de la remise en état du site stratégique STT Tamatave, RZ a été mandaté par Orange Madagascar pour la réhabilitation des infrastructures techniques secondaires de ce nœud de télécommunications. Les travaux de plomberie ont consisté au remplacement complet des canalisations en PVC dégradées, assurant la reprise des réseaux d'alimentation en eau et d'évacuation conformément aux normes en vigueur. L'installation de nouveaux équipements sanitaires — WC et accessoires — a permis de remettre aux standards d'exploitation les locaux à usage du personnel technique présent sur site. En parallèle, les interventions électriques ont porté sur le diagnostic, la réparation et le remplacement partiel des installations courant fort défaillantes, garantissant la sécurité électrique et la continuité opérationnelle du site.",
+    "tag": "Réhabilitation"
+  },
+  {
+    "id": 5,
+    "titre": "Remplacement d'une porte métallique",
+    "date": "2025-01-15",
+    "annee": "2025",
+    "image": "assets/images/projets/porte.webp",
+    "description": "Remplacement d'un bloc-porte métallique existant par une porte technique équipée d'un ferme-porte hydraulique en applique. Reprise des paumelles, réglage de l'alignement et contrôle du jeu fonctionnel pour assurer une fermeture automatique conforme. Optimisation de la sécurité et de la durabilité grâce à une quincaillerie renforcée et une finition thermolaquée résistante à l'usure.",
+    "tag": "Rénovation"
+  },
+  {
+    "id": 4,
+    "titre": "Amélioration d'une fenêtre",
+    "date": "2023-06-01",
+    "annee": "2023",
+    "image": "assets/images/projets/fenetre.webp",
+    "description": "Remplacement d'une menuiserie métallique vétuste par une fenêtre coulissante en aluminium thermolaqué à rupture de pont thermique. Dépose complète de l'ancien dormant, reprise des tableaux et mise à niveau de l'ouverture pour assurer l'alignement et l'étanchéité périphérique. Installation d'un vitrage performant optimisant l'isolation thermique, l'apport lumineux et la finition esthétique intérieure.",
+    "tag": "Aménagement"
+  },
+  {
+    "id": 2,
+    "titre": "Réhabilitation complète d'un site de télécommunications BTS pour le compte de l'opérateur Orange Madagascar",
+    "date": "2024-05-01",
+    "annee": "2024",
+    "image": "assets/images/projets/rehabilitation_siteOrange.webp",
+    "description": "Réhabilitation complète d'un site de télécommunications BTS pour le compte de l'opérateur Orange Madagascar, situé en zone sommitale à Nosy-Be (région Diana, alt. 134,9 m). Les travaux ont porté sur la réalisation d'une plateforme en dalle béton, la pose d'une clôture périmétrique en grillage métallique avec fil barbelé de sécurité, l'installation d'un portail d'accès et l'aménagement des abords du local technique abritant les équipements de transmission.",
+    "tag": "Réhabilitation"
+  },
+  {
+    "id": 1,
+    "titre": "Construction d'un Immeuble Résidentiel R+1 — Ambatomainty",
+    "date": "2012-01-01",
+    "annee": "2012",
+    "image": "assets/images/projets/construction_AM.webp",
+    "description": "Réalisation complète d'un bâtiment à usage d'habitation de type R+1, en structure poteaux-poutres béton armé sur maçonnerie de briques pleines, comprenant des finitions intérieures soignées en carrelage grès cérame, équipements sanitaires individuels, citerne de stockage d'eau en toiture-terrasse et espaces de vie fonctionnels. L'ouvrage intègre également un espace cuisine extérieur avec barbecue et four traditionnel maçonné, ainsi que des garde-corps en profilés métalliques soudés. Les menuiseries métalliques et les ouvrages de voirie périphérique en pavés de moellons complètent la livraison clé en main assurée par RZ.",
+    "tag": "Batiment Résidentiel"
+  }
+]

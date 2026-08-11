@@ -1,0 +1,29 @@
+[
+  {
+    "id": 3,
+    "titre": "Lancement des travaux de réhabilitation à Tamatave",
+    "date": "2026-08-05",
+    "categorie": "Chantier",
+    "image": "assets/images/projets/STT_tamatave.webp",
+    "extrait": "RZ démarre une nouvelle phase de réhabilitation sur le site stratégique de Tamatave, avec une équipe renforcée sur le terrain.",
+    "contenu": "L'équipe RZ a débuté cette semaine une nouvelle phase de travaux sur le site stratégique de Tamatave. Cette intervention concerne la remise aux normes des installations techniques et sanitaires, dans la continuité des précédents chantiers menés pour le compte d'Orange Madagascar.\n\nUne équipe renforcée a été mobilisée pour respecter le calendrier prévu, avec un accent particulier mis sur la sécurité des intervenants et la qualité des finitions."
+  },
+  {
+    "id": 2,
+    "titre": "RZ renforce son équipe technique",
+    "date": "2026-07-20",
+    "categorie": "Vie de l'entreprise",
+    "image": "assets/images/projets/construction_AM.webp",
+    "extrait": "Deux nouveaux techniciens rejoignent l'équipe RZ pour accompagner la croissance des activités de l'entreprise.",
+    "contenu": "Dans le cadre de son développement, RZ accueille deux nouveaux techniciens spécialisés en génie civil et en second œuvre. Ce renforcement permettra à l'entreprise de répondre plus rapidement aux demandes de ses clients et de maintenir son niveau d'exigence sur l'ensemble de ses chantiers.\n\nRZ continue d'investir dans la formation et l'accompagnement de ses équipes sur le terrain."
+  },
+  {
+    "id": 1,
+    "titre": "Livraison réussie du chantier de fenêtres",
+    "date": "2026-06-10",
+    "categorie": "Réalisation",
+    "image": "assets/images/projets/fenetre.webp",
+    "extrait": "Le remplacement des menuiseries métalliques par des fenêtres en aluminium a été livré dans les délais prévus.",
+    "contenu": "Le projet de remplacement de menuiseries métalliques vétustes par des fenêtres coulissantes en aluminium a été livré avec succès. Les travaux ont été menés dans le respect du planning initial, avec une attention particulière portée à la finition et à l'étanchéité.\n\nCe chantier illustre l'engagement de RZ à livrer des ouvrages de qualité, dans les délais convenus avec ses clients."
+  }
+]
