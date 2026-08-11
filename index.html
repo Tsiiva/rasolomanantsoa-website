@@ -3,14 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title> RZ — Bâtiment & Travaux Publics</title>
+  <title>RZ — Bâtiment & Travaux Publics</title>
   <meta name="description" content="ETS Rasolomanantsoa Zafiarijaona — Entreprise spécialisée en bâtiment et travaux publics. Construction, rénovation, génie civil." />
   <link rel="icon" href="assets/images/logo/RZ_logo.png" type="image/png" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
-  <!-- NAVBAR -->
   <nav id="navbar">
     <a href="index.html" class="nav-logo">
       <img src="assets/images/logo/RZ_logo.png" alt="Logo RZ" />
@@ -34,7 +33,6 @@
 
   <div class="page-wrapper">
 
-    <!-- HERO -->
     <section class="hero">
       <div class="hero-bg"></div>
       <div class="hero-pattern"></div>
@@ -45,11 +43,12 @@
         <h1 class="hero-title">Bâtir avec<br><span>excellence</span></h1>
         <p class="hero-subtitle">Rasolomanantsoa Zafiarijaona — RZ</p>
         <p class="hero-desc">
-          Spécialisée en bâtiment et travaux publics,RZ met son expertise au service de vos projets de construction, rénovation et génie civil. Qualité, rigueur et engagement à chaque chantier.
+          Spécialisée en bâtiment et travaux publics, RZ met son expertise au service de vos projets de construction, rénovation et génie civil. Qualité, rigueur et engagement à chaque chantier.
         </p>
-        <div class="hero-cta">
+        <div class="hero-cta" style="display: flex; gap: 12px; flex-wrap: wrap;">
           <a href="activites.html" class="btn btn-primary">Nos activités</a>
           <a href="projets.html" class="btn btn-outline">Voir nos projets</a>
+          <a href="actualites.html" class="btn btn-outline">Suivre nos actualités</a>
         </div>
         <div class="hero-stats">
           <div class="hero-stat">
@@ -68,7 +67,6 @@
       </div>
     </section>
 
-    <!-- PRÉSENTATION RAPIDE -->
     <section class="section section-light">
       <div class="container">
         <div class="section-header reveal">
@@ -105,7 +103,6 @@
 
     <div class="divider"></div>
 
-    <!-- DOMAINES D'ACTIVITÉ (aperçu) -->
     <section class="section section-gray">
       <div class="container">
         <div class="section-header reveal">
@@ -152,7 +149,6 @@
       </div>
     </section>
 
-    <!-- NOS DERNIERS PROJETS (aperçu) -->
     <section class="section section-light">
       <div class="container">
         <div class="section-header reveal">
@@ -162,31 +158,49 @@
           <div class="accent-line"></div>
         </div>
         <div class="projects-grid" id="projectsPreview">
-          <!-- Les 3 projets les plus récents sont générés automatiquement depuis assets/data/projets.json -->
-        </div>
+          </div>
         <div style="text-align:center; margin-top:40px;" class="reveal">
           <a href="projets.html" class="btn btn-primary">Voir tous nos projets →</a>
         </div>
       </div>
     </section>
 
-    <!-- CALL TO ACTION -->
+    <section class="section section-gray">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="tag">Vie de l'entreprise</div>
+          <h2>Suivez notre actualité du terrain</h2>
+          <p>Restez informé de nos nouveaux chantiers, réhabilitations et faits marquants chez RZ.</p>
+          <div class="accent-line"></div>
+        </div>
+        <div class="reveal" style="text-align: center; max-width: 650px; margin: 0 auto;">
+          <p style="color: var(--gray-text); line-height: 1.8; margin-bottom: 28px;">
+            Nous partageons régulièrement les avancées de nos chantiers aux quatre coins de Madagascar, les arrivées dans notre équipe technique et les moments forts de notre activité.
+          </p>
+          <a href="actualites.html" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 8px;">
+            <svg viewBox="0 0 24 24" width="1.1em" height="1.1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 20H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h10l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
+            Consulter les actualités →
+          </a>
+        </div>
+      </div>
+    </section>
+
     <section style="background:var(--black); padding:80px 5%; text-align:center; position:relative; overflow:hidden;">
       <div style="position:absolute;top:-80px;left:50%;transform:translateX(-50%);width:600px;height:400px;background:radial-gradient(ellipse,rgba(109,196,58,0.12) 0%,transparent 70%);pointer-events:none;"></div>
       <div class="container" style="position:relative;z-index:2;">
         <div class="reveal">
           <p style="color:var(--green);font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:0.14em;margin-bottom:12px;">Travaillons ensemble</p>
           <h2 style="color:var(--white);margin-bottom:20px;">Votre projet mérite les meilleurs</h2>
-          <p style="color:rgba(255,255,255,0.5);max-width:500px;margin:0 auto 36px;">Que vous soyez particulier, promoteur ou collectivité,RZ est prête à étudier votre projet et vous accompagner de la conception à la livraison.</p>
-          <a href="infos.html" class="btn btn-primary" style="font-size:1rem; padding:16px 40px;">Nous contacter →</a>
+          <p style="color:rgba(255,255,255,0.5);max-width:500px;margin:0 auto 36px;">Que vous soyez particulier, promoteur ou collectivité, RZ est prête à étudier votre projet et vous accompagner de la conception à la livraison.</p>
+          <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
+            <a href="infos.html" class="btn btn-primary" style="font-size:1rem; padding:16px 40px;">Nous contacter →</a>
+            <a href="actualites.html" class="btn btn-outline" style="font-size:1rem; padding:16px 32px;">Lire les actualités</a>
+          </div>
         </div>
       </div>
     </section>
 
-  </div><!-- /page-wrapper -->
-
-  <!-- FOOTER -->
-  <footer>
+  </div><footer>
     <div class="footer-grid">
       <div class="footer-brand">
         <div class="brand-name">RZ</div>
@@ -212,7 +226,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span class="copy">© 2023 RZ — Tous droits réservés</span>
+      <span class="copy">© 2026 RZ — Tous droits réservés</span>
       <span class="made-with">Entreprise <span>Malgache</span></span>
     </div>
   </footer>

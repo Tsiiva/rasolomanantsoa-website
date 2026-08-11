@@ -1,8 +1,44 @@
 [
   {
+    "id": 4,
+    "titre": "Nouveau bâtiment annexe à Antsirabe",
+    "date": "2026-03-28",
+    "categorie": "Chantier",
+    "image": "assets/images/actualites/annexe.webp",
+    "extrait": "RZ poursuit son expansion avec la construction d'un nouveau bâtiment annexe dans la ville d'Antsirabe.",
+    "contenu": "Les travaux de construction du nouveau bâtiment annexe à Antsirabe franchissent une étape décisive. Ce projet vise à moderniser et étendre les infrastructures locales pour mieux répondre aux besoins opérationnels.\n\nNos équipes sur place assurent le suivi du gros œuvre et veillent à l'application rigoureuse des normes de sécurité et de qualité sur le chantier."
+  },
+  {
+    "id": 5,
+    "titre": "Travaux d'étanchéité sur le site stratégique STT Tamatave",
+    "date": "2026-07-13",
+    "categorie": "Réhabilitation",
+    "image": "assets/images/actualites/etanche_stt.webp",
+    "extrait": "Intervention technique sur le site STT Tamatave pour le renforcement et la réhabilitation de l'étanchéité.",
+    "contenu": "L'équipe technique de RZ est intervenue sur le site stratégique STT de Tamatave pour mener des travaux complets d'étanchéité. Cette opération essentielle permet de protéger durablement les infrastructures contre les intempéries et les infiltrations d'eau.\n\nL'intervention s'est déroulée dans le respect des contraintes techniques du site et garantit la pérennité des installations."
+  },
+  {
+    "id": 6,
+    "titre": "Relevé topographique de précision à Tamatave",
+    "date": "2026-07-15",
+    "categorie": "Génie Civil",
+    "image": "assets/images/actualites/topo.webp",
+    "extrait": "Réalisation d'un levé topographique complet à Tamatave pour la préparation des futurs aménagements.",
+    "contenu": "Nos géomètres et techniciens ont réalisé un levé topographique détaillé sur la zone de chantier à Tamatave. Cette étape fondamentale permet de cartographier avec précision le relief et les contraintes du terrain avant le lancement des opérations de construction.\n\nGrâce à ces données précises, nos équipes d'ingénierie préparent des plans d'exécution optimisés."
+  },
+  {
+    "id": 7,
+    "titre": "Installation réussie d'un portail automatique à Majunga",
+    "date": "2026-08-08",
+    "categorie": "Réalisation",
+    "image": "assets/images/actualites/automatisation.webp",
+    "extrait": "Livraison et mise en service d'un portail automatique sécurisé pour un site à Majunga.",
+    "contenu": "RZ a finalisé l'installation et la mise en service d'un portail automatique sur le site de Majunga. Ce projet comprend la pose de la structure métallique, l'intégration des systèmes d'automatisation et les tests de sécurité.\n\nCette réalisation renforce la sécurité des accès au site tout en offrant un confort d'utilisation optimal au quotidien."
+  },
+  {
     "id": 3,
     "titre": "Lancement des travaux de réhabilitation à Tamatave",
-    "date": "2026-08-05",
+    "date": "2025-11-23",
     "categorie": "Chantier",
     "image": "assets/images/projets/STT_tamatave.webp",
     "extrait": "RZ démarre une nouvelle phase de réhabilitation sur le site stratégique de Tamatave, avec une équipe renforcée sur le terrain.",
@@ -11,7 +47,7 @@
   {
     "id": 2,
     "titre": "RZ renforce son équipe technique",
-    "date": "2026-07-20",
+    "date": "2026-01-05",
     "categorie": "Vie de l'entreprise",
     "image": "assets/images/projets/construction_AM.webp",
     "extrait": "Deux nouveaux techniciens rejoignent l'équipe RZ pour accompagner la croissance des activités de l'entreprise.",
@@ -20,7 +56,7 @@
   {
     "id": 1,
     "titre": "Livraison réussie du chantier de fenêtres",
-    "date": "2026-06-10",
+    "date": "2025-12-11",
     "categorie": "Réalisation",
     "image": "assets/images/projets/fenetre.webp",
     "extrait": "Le remplacement des menuiseries métalliques par des fenêtres en aluminium a été livré dans les délais prévus.",
