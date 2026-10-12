@@ -8,6 +8,8 @@ Le site présente l'entreprise, ses activités, son personnel, ses projets et se
 
 Le site est déployé sur **Netlify** et accessible via un **nom de domaine personnalisé** acheté pour l'entreprise.
 
+lien du site : https://rasolomanantsoa.mg/
+
 ## ✨ Fonctionnalités
 
 - 🏠 Présentation de l'entreprise
