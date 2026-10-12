@@ -1,5 +1,23 @@
 [
   {
+    "id": 9,
+    "titre": "Aménagement extérieur MSC1 Mahajunga",
+    "date": "2026-10-09",
+    "categorie": "Chantier",
+    "image": "assets/images/actualites/amenagement_mjg.webp",
+    "extrait": "Réalisation des travaux d'aménagement extérieur pour le site MSC1 à Mahajunga afin de sécuriser et viabiliser les infrastructures.",
+    "contenu": "Les travaux d'aménagement extérieur sur le site MSC1 à Mahajunga ont atteint leur terme. Ce projet a visé à viabiliser, sécuriser et optimiser l'accès aux installations.\n\nLes prestations ont englobé les travaux de terrassement, le nivellement des sols, la mise en place de cheminements stabilisés ainsi que la configuration des réseaux d'évacuation des eaux pluviales pour garantir la durabilité et l'esthétique générale du site face aux contraintes locales."
+  },
+  {
+    "id": 8,
+    "titre": "Terrassement du terrain de solarisation",
+    "date": "2026-10-10",
+    "categorie": "Chantier",
+    "image": "assets/images/actualites/terrassement_stt.webp",
+    "extrait": "Lancement des opérations de terrassement préparatoires pour l'implantation des équipements de solarisation.",
+    "contenu": "Les équipes de RZ sont mobilisées sur le terrain pour conduire les opérations de terrassement préparatoires à la solarisation. Ce chantier est une étape clé pour garantir la réussite de l'installation des équipements futurs.\n\nLes travaux comprennent l'excavation, le déblaiement, le remblaiement et le compactage rigoureux des sols afin d'obtenir une plateforme parfaitement plane, stable et conforme aux exigences techniques requises."
+  },
+  {
     "id": 4,
     "titre": "Nouveau bâtiment annexe à Antsirabe",
     "date": "2026-03-28",
